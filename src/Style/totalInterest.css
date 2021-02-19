@@ -1,0 +1,65 @@
+.totalInterest h4 {
+  margin: 20px 0 0 0;
+  color: black;
+}
+.totalInterest_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px 0px 0px;
+  padding: 5px;
+  background-color: #fff;
+  height: 4.5rem;
+  border-bottom: 3px solid #dedede;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: small;
+  color: #888888;
+  margin: 1px;
+  padding: 5px;
+  width: 100%;
+}
+.border_left_red {
+  border-bottom: 1px solid #c0392b;
+  height: 100%;
+  width: 100%;
+}
+.border_right_green {
+  height: 100%;
+  border-bottom: 1px solid #2ecc71;
+}
+.border {
+  height: 100%;
+  border-left: 3px solid #dedede;
+}
+.totalInterest_content span.amount {
+  font-weight: 500;
+  margin: 5px;
+}
+.details .amount {
+  font-weight: 500;
+  color: black;
+  margin: 5px;
+  width: 100%;
+}
+
+.totalInterest_content span {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

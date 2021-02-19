@@ -1,0 +1,30 @@
+.qualify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.qualify h4 {
+  color: #585858;
+}
+.qualify p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #c0392b;
+}
+
+.qualify p {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

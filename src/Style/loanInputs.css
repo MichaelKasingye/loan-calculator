@@ -1,0 +1,9 @@
+.loanInputs h4 {
+  color: #585858;
+}
+.loan_title {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

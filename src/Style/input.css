@@ -1,0 +1,49 @@
+.input_data label {
+  font-size: small;
+  font-weight: 500;
+}
+.input_data p {
+  font-size: x-small;
+  font-weight: 700;
+  color: #585858;
+}
+
+.input_data {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.6s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.input_data {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 10px;
+}
+.input_data .input {
+  width: 100%;
+  height: 2rem;
+  padding: 2px;
+  border: none;
+  border: 2px solid #dedede;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: small;
+  letter-spacing: 2px;
+}
+.input:focus {
+  outline: none;
+}
+input {
+  color: #585858;
+}

@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px;
+  height: 3.9rem;
+}
+.card_Icons {
+  width: 2rem;
+  height: 4rem;
+  margin-left: 5px;
+}
+.card:nth-child(even) .card_Icons {
+  color: #273c75;
+}
+.card:nth-child(odd) .card_Icons {
+  color: #353b48;
+}
