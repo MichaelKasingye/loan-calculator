@@ -42,7 +42,6 @@ function TotalInterest(props) {
         <div className="details border_right_green border">
           <span className="amount"> Payment to Income </span>
           <span className="figures" key={Math.random()}>
-            {" "}
             {loanPaymentToIncome} %
           </span>
         </div>

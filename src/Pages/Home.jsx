@@ -11,7 +11,7 @@ function Home(props) {
     <div className="home">
       <div className="inner_home">
         <div className="top background1">
-          <Title content="Loan Calculator" />
+          <Title content="LOANA" />
           <Qualify title="MONTHLY PAYMENT" />
           <LoanDetail />
           <ToatalInterest />
