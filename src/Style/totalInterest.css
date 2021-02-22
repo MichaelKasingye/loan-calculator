@@ -19,7 +19,7 @@
   flex-direction: column;
   font-weight: 500;
   font-size: small;
-  color: #888888;
+  color: #58a6ff;
   margin: 1px;
   padding: 5px;
   width: 100%;
@@ -31,7 +31,7 @@
 }
 .border_right_green {
   height: 100%;
-  border-bottom: 1px solid #2ecc71;
+  border-bottom: 1px solid #c0392b;
 }
 .border {
   height: 100%;
@@ -40,7 +40,12 @@
 .totalInterest_content span.amount {
   font-weight: 500;
   margin: 5px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .details .amount {
   font-weight: 500;
   color: black;

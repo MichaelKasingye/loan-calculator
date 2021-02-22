@@ -26,7 +26,7 @@ function TotalInterest(props) {
     <div className="totalInterest">
       <div className="totalInterest_content">
         <div className="details border_left_red">
-          <span className="amount">Total Interest[{curency}]</span>
+          <span className="amount">Total Loan Interest[{curency}]</span>
           <span className="figures" key={Math.random()}>
             {formatNumber(totalIntrest)}
           </span>
@@ -40,7 +40,7 @@ function TotalInterest(props) {
         </div>
 
         <div className="details border_right_green border">
-          <span className="amount"> Payment to Income </span>
+          <span className="amount">Payment to Income </span>
           <span className="figures" key={Math.random()}>
             {loanPaymentToIncome} %
           </span>

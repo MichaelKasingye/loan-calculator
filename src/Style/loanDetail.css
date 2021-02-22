@@ -27,7 +27,7 @@
   font-weight: 500;
 }
 .box:nth-child(even) p {
-  color: #58a6ff;
+  color: black;
 }
 
 .red {

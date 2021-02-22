@@ -25,7 +25,7 @@ function loanDetail(props) {
     <div className="loanDetail">
       <div className="box ">
         <h4>LOAN-[{curency}] </h4>
-        <p className="red" key={Math.random()}>
+        <p  key={Math.random()}>
           {formatNumber(loanAmount)}
         </p>
       </div>
