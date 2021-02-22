@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .qualify h4 {
   color: #585858;
@@ -12,7 +12,9 @@
   font-weight: 500;
   color: #c0392b;
 }
-
+.qualify .button{
+  margin-top:0px ;
+}
 .qualify p {
   opacity: 1;
   animation-name: fadeInOpacity;
@@ -26,5 +28,10 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@media (min-width: 588px) {
+  .qualify {
+    margin-bottom: 40px;
   }
 }

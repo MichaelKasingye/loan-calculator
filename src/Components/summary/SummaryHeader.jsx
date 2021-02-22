@@ -5,6 +5,9 @@ import "../../Style/summaryHeader.css";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 import { connect } from "react-redux";
 import { formatNumber } from "../../code_Library/functions";
+import logo from'../../Images/logo.png';
+
+
 function SummaryHeader(props) {
   const history = useHistory();
 
@@ -36,7 +39,10 @@ function SummaryHeader(props) {
 
   return (
     <div className="SummaryHeader">
+      <div className="summary_top">
       <KeyboardBackspaceIcon onClick={homePage} />
+        <h4 className="summary_title">LOANA</h4>
+      </div>
       <div className="loan_Infos">
         <h5>Loan Amount</h5>
         <div className="qualify_sections">

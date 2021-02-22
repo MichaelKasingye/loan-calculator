@@ -8,6 +8,13 @@
   max-width: 100%;
   padding: 16px;
 }
+.summary_top{
+  display: flex;
+  justify-content: space-between;
+}
+.summary_title{
+  display: none;
+}
 .loan_Infos {
   display: flex;
   flex-direction: column;
