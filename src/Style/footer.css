@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
-  color: #58a6ff;
+  color: black;
+  font-weight: 900;
 }
 .footer {
   margin-top: 5px;
