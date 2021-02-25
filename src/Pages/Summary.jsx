@@ -11,7 +11,7 @@ function Summary() {
     quality: 1.0
   });
 
-  const download = (image, { name = "img", extension = "jpg" } = {}) => {
+  const download = (image, { name = "Loan_Amount", extension = "jpg" } = {}) => {
     const a = document.createElement("a");
     a.href = image;
     a.download = createFileName(extension, name);
