@@ -9,7 +9,7 @@
   padding: 15px;
 }
 
-.bottom {
+.effect_long {
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -24,7 +24,7 @@
     opacity: 1;
   }
 }
-.top {
+.effect_short {
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;

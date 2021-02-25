@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 
 import "../../Style/summaryHeader.css";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
+import { FaDownload } from 'react-icons/fa';
 import { connect } from "react-redux";
 import { formatNumber } from "../../code_Library/functions";
 import logo from'../../Images/logo.png';
@@ -40,7 +41,10 @@ function SummaryHeader(props) {
   return (
     <div className="SummaryHeader">
       <div className="summary_top">
+        <div className="summary_nav">
       <KeyboardBackspaceIcon onClick={homePage} />
+        <FaDownload onClick={props.download}/>
+        </div>
         <h4 className="summary_title">LOANA</h4>
       </div>
       <div className="loan_Infos">
@@ -58,7 +62,7 @@ function SummaryHeader(props) {
 
         <div className="qualify_sections below">
           <p className="loan_payment">
-            Monthly Payment:
+            Monthly Payment-
             <span>
               {curency}: {formatNumber(loanInstalments)}
             </span>

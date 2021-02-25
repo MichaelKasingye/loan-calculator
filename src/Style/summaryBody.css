@@ -12,9 +12,25 @@
   height: 4rem;
   margin-left: 5px;
 }
+
 .card:nth-child(even) .card_Icons {
   color: #273c75;
 }
 .card:nth-child(odd) .card_Icons {
   color: #353b48;
+}
+.card_Icons {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
