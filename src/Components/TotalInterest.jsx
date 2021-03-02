@@ -33,14 +33,14 @@ function TotalInterest(props) {
         </div>
 
         <div className="details border_right_green border">
-          <span className="amount">Income balance[{curency}]</span>
+          <span className="amount">Income Balance[{curency}]</span>
           <span className="figures" key={Math.random()}>
             {formatNumber(netIncomeBalance)}
           </span>
         </div>
 
         <div className="details border_right_green border">
-          <span className="amount">Payment to Income </span>
+          <span className="amount">Payment To Income </span>
           <span className="figures" key={Math.random()}>
             {loanPaymentToIncome} %
           </span>

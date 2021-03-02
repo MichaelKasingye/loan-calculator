@@ -28,7 +28,7 @@ function LoanInputs(props) {
           onChange={(e) => setCurency(e.currentTarget.value.toUpperCase())}
         />
         <Input
-          label=" Your Net Income Here"
+          label="Net or Average Income Here "
           placeholder="Net Income"
           value={income}
           onChange={(e) => setIncome(e.currentTarget.value)}

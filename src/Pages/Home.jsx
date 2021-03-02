@@ -13,8 +13,8 @@ function Home(props) {
         <div className="top background1">
           <Title content="LOANA" />
           <Qualify title="MONTHLY PAYMENT" />
-          <LoanDetail />
           <ToatalInterest />
+          <LoanDetail />
         </div>
         <div className="bottom">
           <LoanInputs />
